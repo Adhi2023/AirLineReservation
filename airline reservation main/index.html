@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Reservation</title>
+    <style>
+        h1,h2,#google_translate_element,.proceed{
+            text-align: center;
+            padding:10px;
+        }
+        body{
+            background-image: url('image/ASR8.jpg');
+            height: 100%;
+        }
+        .section{
+            text-align:center;
+            background-color:rgb(0, 200, 255);
+            margin-left: 28%;
+            margin-right: 28%;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+    <div>
+    <h1>Welcome to Airline Reservation System</h1></div>
+    <div><h2>Please choose your language</h2></div>
+        <div id="google_translate_element"></div>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="translate.js"></script>
+    <div class="proceed">
+    <button id="proceed" onclick="window.location.href='Userpage.html'">Proceed</button>
+    </div>
+</div>
+</body>
+</html>
